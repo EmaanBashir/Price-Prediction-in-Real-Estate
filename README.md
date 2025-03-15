@@ -120,7 +120,4 @@ Below are some key findings from the analysis:
 - 📊 **Presentation**: [Canva](https://www.canva.com/design/DAFWDrfHGyA/sL_ZZprUQ_sg_YcBvnnbdw/edit?utm_content=DAFWDrfHGyA\&utm_campaign=designshare\&utm_medium=link2\&utm_source=sharebutton)
 - 📈 **Dashboard**: [Tableau](https://public.tableau.com/views/RealEstate_16720671945070/Dashboard1?language=en-US&display_count=n&origin=viz_share_link)
 
----
-
-For any inquiries or contributions, feel free to open an issue or contact me!
 
