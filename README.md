@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project focuses on predicting real estate prices in Pakistan using data mining and machine learning techniques. By analyzing property characteristics and market trends, we aim to provide a data-driven approach to assist buyers and sellers in making informed decisions.
+This project focuses on predicting real estate prices in Pakistan using data mining and machine learning techniques. By analyzing property characteristics and market trends, a data-driven approach is provided to assist buyers and sellers in making informed decisions.
 
 ## Table of Contents
 
@@ -16,11 +16,10 @@ This project focuses on predicting real estate prices in Pakistan using data min
 - [How to Run the Code](#how-to-run-the-code)
 - [Results](#results)
 - [Links](#links)
-- [Contributors](#contributors)
 
 ## Introduction
 
-The real estate market in Pakistan is subject to various economic and local factors that influence property prices. Our project collects and analyzes real estate data to develop a predictive model using machine learning techniques. The project involves data collection through web scraping, data preprocessing, visualization, and model training for price prediction.
+The real estate market in Pakistan is subject to various economic and local factors that influence property prices. This project collects and analyzes real estate data to develop a predictive model using machine learning techniques. The project involves data collection through web scraping, data preprocessing, visualization, and model training for price prediction.
 
 ## Dataset
 
@@ -58,19 +57,29 @@ The collected data was cleaned using **Pandas** and **NumPy** by:
 
 ### Data Visualization
 
-We used **Tableau** to visualize patterns in the dataset. Key insights include:
+**Tableau** was used to visualize patterns in the dataset. Key insights include:
 
 - **Price Trends Over the Years**: Line charts showing average property prices across years.
+  
+  ![image](https://github.com/user-attachments/assets/f3a9d14f-dc25-47b7-bf02-cfea8ef1f7a7)
 - **Property Type Distribution**: Pie charts displaying the distribution of different property types.
+  
+  ![image](https://github.com/user-attachments/assets/9b0e8007-3051-466c-aa7a-7c82885e8626)
 - **Average Property Prices by Province**: Map charts showing regional price variations.
+  
+  ![image](https://github.com/user-attachments/assets/1b1eb1b3-bf84-46dc-9e4b-4f16ff9926a5)
 - **Price Range Distribution**: Histograms plotting the number of properties in different price ranges.
+  
+  ![image](https://github.com/user-attachments/assets/38635772-6b29-4694-91bc-e7ca2084b88f)
 - **Property Type vs Yearly Price Trends**: Heatmaps illustrating yearly price changes for different property types.
+  
+  ![image](https://github.com/user-attachments/assets/a14102c7-20b5-483d-8c3e-edf744f85045)
 
-Interactive visualizations can be explored in the [Tableau Dashboard](https://public.tableau.com/views/RealEstate_16720671945070/Dashboard1?\:language=en-US&\:display_count=n&\:origin=viz_share_link).
+Interactive visualizations can be explored in the [Tableau Dashboard](https://public.tableau.com/views/RealEstate_16720671945070/Dashboard1?language=en-US&display_count=n&origin=viz_share_link).
 
 ### Price Prediction
 
-For predicting property prices, we trained a **Decision Tree Regression model** using **scikit-learn**. The model was evaluated using two different criteria:
+For predicting property prices, a **Decision Tree Regression model** was trained using **scikit-learn**. The model was evaluated using two different criteria:
 
 1. **Mean Squared Error (MSE)** – Achieved **72.2% accuracy**.
 2. **Friedman MSE** – Achieved **70.38% accuracy**.
@@ -79,12 +88,12 @@ For predicting property prices, we trained a **Decision Tree Regression model** 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/real-estate-price-prediction.git
-   cd real-estate-price-prediction
+   git clone https://github.com/EmaanBashir/Price-Prediction-in-Real-Estate.git
+   cd Price-Prediction-in-Real-Estate/Code
    ```
-2. Install the required dependencies:
+2. Run the web scraping script to collect data:
    ```bash
-   pip install -r requirements.txt
+   jupyter notebook Web_Scraping_for_Real_Estate_Data.ipynb
    ```
 3. Run the data preprocessing script:
    ```bash
@@ -98,7 +107,7 @@ For predicting property prices, we trained a **Decision Tree Regression model** 
 
 ## Results
 
-Below are some key findings from our analysis:
+Below are some key findings from the analysis:
 
 - **Houses in major cities like Karachi, Lahore, and Islamabad tend to have higher prices.**
 - **Property prices have shown an increasing trend over the past few years.**
@@ -109,18 +118,9 @@ Below are some key findings from our analysis:
 
 - 📂 **Dataset**: [Google Drive](https://drive.google.com/drive/folders/1X7_zt9ZvbBDPhCFCiiodzy5waXKcwqrZ?usp=share_link)
 - 📊 **Presentation**: [Canva](https://www.canva.com/design/DAFWDrfHGyA/sL_ZZprUQ_sg_YcBvnnbdw/edit?utm_content=DAFWDrfHGyA\&utm_campaign=designshare\&utm_medium=link2\&utm_source=sharebutton)
-- 📈 **Dashboard**: [Tableau](https://public.tableau.com/views/RealEstate_16720671945070/Dashboard1?\:language=en-US&\:display_count=n&\:origin=viz_share_link)
-
-## Contributors
-
-This project was completed as part of the **MSc Data Science** coursework by:
-
-- **Arooba Siddiqi**
-- **Emaan Bashir**
-- **Rimsha Mirza**
-- **Faraz Shah**
+- 📈 **Dashboard**: [Tableau](https://public.tableau.com/views/RealEstate_16720671945070/Dashboard1?language=en-US&display_count=n&origin=viz_share_link)
 
 ---
 
-For any inquiries or contributions, feel free to open an issue or contact us!
+For any inquiries or contributions, feel free to open an issue or contact me!
 
