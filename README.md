@@ -8,6 +8,8 @@ This project focuses on predicting real estate prices in Pakistan using data min
 
 - [Introduction](#introduction)
 - [Dataset](#dataset)
+- [Technologies Used](#technologies-used)
+- [Requirements](#requirements)
 - [Project Implementation](#project-implementation)
   - [Data Collection](#data-collection)
   - [Data Preprocessing](#data-preprocessing)
@@ -34,6 +36,21 @@ The dataset used for this project was collected from [Zameen.com](https://www.za
 - Date added
 
 The dataset is available [here](https://drive.google.com/drive/folders/1X7_zt9ZvbBDPhCFCiiodzy5waXKcwqrZ?usp=share_link).
+
+## Technologies Used
+
+- 🐍 **Python** – Data processing and modeling
+- 📊 **Pandas, NumPy** – Data preprocessing and cleaning
+- 🔍 **BeautifulSoup** – Web scraping
+- 🎨 **Tableau** – Data visualization
+- 🤖 **scikit-learn** – Machine learning model training
+
+## Requirements
+
+Ensure you have Python installed and install the required dependencies using:
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn beautifulsoup4
+```
 
 ## Project Implementation
 
